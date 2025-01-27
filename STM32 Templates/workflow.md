@@ -12,13 +12,17 @@ Select these boxes:
 * Copy all used libraries into the project folder
 * Auto backup all files on regeneration
 
-### Formatting
-* The output of CubeMX is formatted using 2 space indents instead of the commonly used 4 space indents
-* Instead of reformatting the code every time that it is regenerated, in VSCode, merge the files in `.vscode` into the current directory to switch all C and CPP files to 2 spaces.
-
 ### Using CubeMX and Avoiding Auto Generated Code
 * Create an actual main function called `<program_name>.c` and call it before the while loop in `main.c`
 * This won't be touched by the auto code generated which means cleaner code and code won't be messed with
+
+## Working on the Code
+* Use Visual Studio Code
+* Extensions to Install: STM32 for VSCode
+
+### Formatting
+* The output of CubeMX is formatted using 2 space indents instead of the commonly used 4 space indents
+* Instead of reformatting the code every time that it is regenerated, in VSCode, merge the files in `.vscode` into the current directory to switch all C and CPP files to 2 spaces.
 
 
 ## Modify STM32 Peripherals
@@ -33,10 +37,8 @@ Select these boxes:
 * Try out the STM32-for-VSCode plugin??
 
 
-
 # Profiling
 
 
-
-# testing
+# Testing
 
