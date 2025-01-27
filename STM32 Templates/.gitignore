@@ -1,0 +1,28 @@
+# macos
+.DS_Store
+
+# cubemx
+[dD]ebug
+[rR]elease
+.settings
+.launch
+.metadata
+/.project
+**/Backup
+
+# makefile
+build
+
+# cmake
+/cmake-build-debug
+
+# stm32vscode
+.stm32env
+STM32-forVSCode.config.yaml
+STM32Make.make
+
+
+# .project
+# .cproject
+# .mxproject
+# .extSettings
