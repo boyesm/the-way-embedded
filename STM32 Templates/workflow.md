@@ -37,6 +37,21 @@ Select these boxes:
 * Try out the STM32-for-VSCode plugin??
 
 
+Plugins to install:
+* STM32-for-VSCode
+* cortex-debug
+
+
+
+## Viewing Peripherals
+* An '.svd' file is required to view the peripherals of the MCU
+* Add an SVD file from this repo into the root directory of the folder
+* Add this line into each configuration in `.vscode/launch.json`: `"svdPath": "${workspaceFolder}/STM32F446.svd",`
+
+This will allow all the peripherals to be viewed.
+
+
+
 # Profiling
 
 
