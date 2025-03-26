@@ -43,6 +43,9 @@ Plugins to install:
 
 
 
+In a monorepo, only the code being worked on can be opened in VSCODE
+
+
 ## Viewing Peripherals
 * An '.svd' file is required to view the peripherals of the MCU
 * Add an SVD file from this repo into the root directory of the folder
